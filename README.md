@@ -1,2 +1,1 @@
-# mod.github.io
-MOD on Git Hub
+# MOD on Git Hub
