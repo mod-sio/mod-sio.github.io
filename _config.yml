@@ -1,0 +1,45 @@
+# ==========================================
+# Site Settings (Accessible via {{ site.variable_name }})
+# ==========================================
+title: "MOD on GitHub"
+email: "mod@ucsd.edu"
+description: >-
+  This is a comprehensive description of my website. It will appear 
+  in the HTML document head for SEO purposes and in the RSS feed.
+locale: "en-US"
+
+# ==========================================
+# URL Settings
+# ==========================================
+# The subpath of your site, e.g., "/blog". Leave as "" if your site is at the root.
+baseurl: "" 
+
+# The base hostname and protocol for your site, e.g., "https://example.com"
+url: "https://mod.github.io" 
+
+# ==========================================
+# Build & Theme Settings
+# ==========================================
+theme: minima
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# ==========================================
+# Plugins
+# ==========================================
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# ==========================================
+# Exclusions
+# ==========================================
+# Files and directories to exclude from the generated site output
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - .sass-cache/
